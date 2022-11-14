@@ -5,3 +5,5 @@ process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subpr
 output, error = process.communicate()
 return_value = process.returncode
 print(output)
+
+variable = 'something'
